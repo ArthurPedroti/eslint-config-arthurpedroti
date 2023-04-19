@@ -1,12 +1,16 @@
 {
   "name": "@arthurpedroti/eslint-config",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "private": false,
   "description": "ESLint configuration used by Arthur Pedroti.",
   "main": "index.js",
   "license": "MIT",
   "repository": {
     "url": "arthurpedroti/eslint-config"
+  },
+  "scripts": {
+    "npm:login": "npm login",
+    "npm:publish": "npm publish --access=public"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.57.1",
