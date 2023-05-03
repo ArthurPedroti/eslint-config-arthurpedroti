@@ -23,6 +23,7 @@ module.exports = {
         'trailingComma': "none",
       },
     ],
+    'camelcase': "off"
   },
   settings: {
     'import/parsers': {
